@@ -1,0 +1,57 @@
+body{
+    background-image: url("codePic.jpg");
+    background-size: cover;
+
+    color: beige;
+    
+}
+h1{
+    text-align: justify ;
+    color: beige;
+}
+
+.aboutme{
+    color: olive;
+    font-family: cursive;
+}
+.skills{
+    color: olive;
+    font-family: cursive;
+}
+.projects{
+    color: olive;
+    font-family: cursive;
+}
+img{
+    height: 300px;
+    width: 250px;
+    border-radius: 50px;
+    
+}
+
+.resume{
+    text-decoration-line: none;
+    font-size: x-large;
+    color: lime;
+    background-color: whitesmoke;
+    font-family: cursive;
+    border-radius: 10px;
+    margin: 0 75px 0 0;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+.resume:hover{
+    background-color: black;
+    opacity: 0.2 ;
+}
+.resume:active{
+    background-color: blue ;
+    opacity: 0.4;
+}
+
+.fa:hover{
+    font-size: x-large;
+    background-color: whitesmoke;
+}
+
